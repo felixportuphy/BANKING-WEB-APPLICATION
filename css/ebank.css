@@ -1,0 +1,137 @@
+.ebank-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    background-color:white;
+    column-gap: 20px;
+    width:90%;
+    height:40%;
+    margin:0 auto;
+    padding:50px;
+    border-top:0.1em solid var(--limegreen);
+  
+    
+
+}
+
+.ebank-slider{
+    width:90%;
+    margin:0 auto;
+    height:40%;
+    border-top:0.1em solid var(--limegreen);
+}
+
+.ebank-slider img{
+    width:100%;
+    height:100%;
+}
+
+
+
+#form1{
+    background-color: white;
+    color:rgb(88, 197, 248);
+    width: 250px;
+    height:300px;
+    border-radius:20px;
+    padding:50px 20px;
+    text-align:center;
+    position:absolute;
+    top:30%;
+    left:10%;
+}
+
+
+#form2{
+    background-color: white;
+    color:rgb(88, 197, 248);
+    width: 250px;
+    height:300px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px 0.5px rgba(0,0,0,0.3);
+    padding:30px 20px;
+    text-align:center;
+    
+}
+
+
+.form-input1{
+    height:40px;
+    margin-bottom:10px;
+    width:200px;
+    outline: none;
+   
+}
+
+
+.form-input2{
+    height:40px;
+    margin-top:10px;
+    outline: none;
+    
+}
+
+#ebank-btn1 {
+    background-color:rgb(88, 197, 248);
+    color:white;
+    width:100px;
+    font-size: var(--font-med);
+    position:absolute;
+    top:70%;
+    left:30%;
+    padding:10px;
+    border-radius:40px;
+
+}
+
+
+#ebank-btn2 {
+    background-color:rgb(88, 197, 248);
+    color:white;
+    width:100px;
+    font-size: var(--font-med);
+    position:absolute;
+    top:120%;
+    left:70%;
+    padding:10px;
+    border-radius:40px;
+    margin-top: 30px;
+
+}
+
+#ebank-gd1{
+  grid-column:1/3;
+}
+
+.ebank-terms{
+   
+    background-color:white;
+    width:90%;
+    height:40%;
+    margin:0 auto;
+    padding:50px;
+    border-top:0.1em solid var(--limegreen);
+  
+    
+
+}
+
+
+
+
+.ebank-leads{
+    text-align: center;
+    padding:50px 20px;
+    font-size:var(--font-med);
+}
+
+.ebank-head{
+    color:var(--limegreen);
+    text-align: center;
+    font-size:var(--font-large);
+    padding:20px 0 0 0;
+}
+
+.e-bank-type{
+    margin-left:100px;
+    padding-bottom:20px;
+}

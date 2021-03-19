@@ -1,0 +1,72 @@
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 10px;
+    background-color:white;
+    width:90%;
+    margin:0 auto;
+    padding:2em;
+}
+
+.about-team{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    background-color:white;
+    width:90%;
+    margin:0 auto;
+    padding:2em;
+}
+
+.about-bd{
+    width:200px;
+    height:200px;
+    border: 1px solid var(--limegreen);
+    border-radius:40px;
+}
+
+.head-span{
+    grid-column:1/6;
+    margin-bottom:20px;
+}
+
+
+.about-mteam{
+    width:200px;
+    height:200px;
+    border: 1px solid var(--limegreen);
+    border-radius:40px;
+}
+
+
+.about-gp{
+    width:610px;
+    height:300px;
+    border: 1px solid var(--limegreen);
+}
+
+.about-gd{
+    width:500px;
+    height:300px;
+    border: 1px solid var(--limegreen);
+}
+
+#about-brief{
+    grid-column:1/3;
+}
+
+
+.about-gp img{
+    width:100%;
+    height:100%;
+}
+
+.about-leads{
+    text-align: center;
+    padding:50px 20px;
+}
+
+.about-head{
+    text-align: center;
+    font-size:var(--font-large);
+    padding:20px 0 0 0;
+}
