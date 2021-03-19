@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="css/ebank.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
     <nav id="nav">
-        <a href="" id="bank_logo"><img src="#" alt=""></a>
+        <a href="index.html" ><img id="bank_logo" src="assets/img/images (7).jpg" alt=""><span id="bank-text">Bank</span></a>
        
         <ul id ="nav-links">
            <li>
-               <a href=""><i class="fa fa-home"></i>Home</a>
+               <a href="index.html"><i class="fa fa-home"></i>Home</a>
             </li>
             <li><a href="about.html">About</a></li>
             <li><a href="product&services.html">Product & Services</a></li>
@@ -37,12 +36,9 @@
                  <img src="assets/img/banner-2-image_0.jpg" alt="">
             </div>
             <div id="form1">
-                <form action="">
-                    <input class="form-input1" type="text"  placeholder="Username"><br>
-                    <input class="form-input1" type="password" placeholder="Password">
-                    <a id="ebank-btn1" href="">Login</a>
-
-                </form>
+                    <input id="username" class="form-input1" type="text"  placeholder="Username"><br>
+                    <input id="password" class="form-input1" type="password" placeholder="Password">
+                    <a id="ebank-btn1" class="btn" href="">Login</a>
            </div>
         </section>
 
@@ -50,26 +46,27 @@
             <div class="ebank-grid">
                 <div id="ebank-gd1">
                 
-                     <h2 class="ebank-head">Welcome to Quarsh Online Personal Banking</h2>
+                     <h2 id="welcomeMessage" class="ebank-head">Welcome to Quarsh Online Personal Banking</h2>
                    
                         <p class="ebank-leads">Please select the appropriate link below to log on to Internet Banking</p>
                         <h2 class="ebank-head">Already registered?</h2>
                     <div class="e-bank-type">
-                        <input type="checkbox"><a href="">Retail Internet Banking</a>
+                        <input type="checkbox"><a class="onlinebank-type" href="">Retail Internet Banking</a>
                     </div>
                     <div  class="e-bank-type">
-                        <input type="checkbox"><a href="">Corporate Internet Banking</a>
+                        <input type="checkbox"><a class="onlinebank-type"  href="">Corporate Internet Banking</a>
                     </div>
                 </div>
 
                 <div id="form2">
                     <h2>Deposit Here</h2>
-                    <form action="">
-                        <input class="form-input2" type="text" placeholder="Enter Amount to Deposit"><br>
-                        <a id="ebank-btn2" href="">Confirm</a>
-                         
-    
-                    </form>
+
+                        <input id="depositInput" class="form-input2" type="text" placeholder="Enter Amount to Deposit"><br>
+                        <a class="btn" id="ebank-btn2" href="">Confirm</a>
+                        <h1 id="bal">Balance: <span id="balance">0.00</span></h1>
+
+                        <!-- <a class="btn" id="signOut" href="">Sign Out</a> -->
+
                </div>
                
        
@@ -177,5 +174,6 @@
             
         </footer>
     <script src="script.js"></script>
+    <script src="ebank.js"></script>
 </body>
 </html>

@@ -17,11 +17,10 @@
     padding:2em;
 }
 
-.about-bd{
+.about-bd,.about-mteam{
     width:200px;
     height:200px;
-    border: 1px solid var(--limegreen);
-    border-radius:40px;
+    border: 1.6px solid var(--limegreen);
 }
 
 .head-span{
@@ -29,13 +28,6 @@
     margin-bottom:20px;
 }
 
-
-.about-mteam{
-    width:200px;
-    height:200px;
-    border: 1px solid var(--limegreen);
-    border-radius:40px;
-}
 
 
 .about-gp{
@@ -63,10 +55,18 @@
 .about-leads{
     text-align: center;
     padding:50px 20px;
+    font-size: 18px;
+    line-height:24px;
 }
 
 .about-head{
     text-align: center;
     font-size:var(--font-large);
     padding:20px 0 0 0;
+}
+
+.about-img{
+    width:196px;
+    height:196px;
+    
 }

@@ -12,3 +12,10 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 5000); // Change image every 5 seconds
 }
+
+var balance= document.getElementById("").value;
+
+function deposit(){
+   button.addEventListener("click");
+   balance
+}

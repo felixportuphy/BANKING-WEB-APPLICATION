@@ -62,13 +62,26 @@ body{
   
 }
 
+#bank_logo{
+    width:60px;
+    height:60px;
+    border:2px solid var(--limegreen);
+    
+}
+
+#bank-text{
+    color:var(--limegreen);
+    font-size:26px;
+    font-weight:bold;
+}
+
 
 #nav-links li a{
     color: var(--darkblue);
 }
 
 #nav-links li a:hover{
-    border-bottom:0.1em solid var(--limegreen)
+    border-bottom:0.14em solid var(--limegreen)
 
 }
 
